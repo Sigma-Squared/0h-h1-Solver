@@ -111,7 +111,7 @@ def solveThrees(M):
     return transpose(second_pass)
 
 #the other functions follow the exact same pattern. The only thing that changes
-#is the actualy _matrixprocess function for solving the rule (for rows only).
+#is the actual _matrixprocess function for solving the rule (for rows only).
 
 #this function is for the rule "all rows and columns must have the same # of
 #reds and blues"
@@ -178,4 +178,4 @@ def solve(m, sz):
 
 
 if __name__ == '__main__':
-    main(sz=4) #the sz argument is the size of the board (4x5 or 10x10, etc.) 
+    main(sz=4) #the sz argument is the size of the board (4x4 or 10x10, etc.) 
